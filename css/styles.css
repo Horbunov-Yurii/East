@@ -1,51 +1,107 @@
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
-    width: 1126px;
-    padding: 0 15px;
-    margin: 0 auto;
-    outline: 1px solid red;
+  width: 1126px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
 }
 
 header {
-    padding-top: 50px;
-    padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .header-box {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
-    margin-right:auto;
+  margin-right: auto;
 }
 
 .header-img {
-width: 150px;
-height: 65.214px;
+  width: 150px;
+  height: 65.214px;
 }
 
 .nav-list {
-    display: flex;
-    gap: 94px;
+  display: flex;
+  gap: 94px;
 }
 
 .nav-link {
-padding: 10px; 
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px;
-letter-spacing: 0.2px; 
-color: #252B42;
+  padding: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252b42;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #FA4A0C;
+  color: #fa4a0c;
 }
 
+.hero {
+  padding-top: 80px;
+  padding-bottom: 162px;
+  text-align: center;
+  background-color: #252b42;
+}
 
+.hero-text {
+  color: #f6f6f6;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 137.931% */
+  letter-spacing: 0.2px;
+  width: 799px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.hero-desk {
+  color: #f6f6f6;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.58; /* 158.333% */
+  letter-spacing: 0.2px;
+  margin-bottom: 54px;
+}
+
+.hero-btm {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.1px;
+  background-color: transparent;
+  padding: 16px 58px;
+  border-radius: 30px;
+  border: 1px solid #fff;
+}
+
+.hero-list {
+    display: flex;
+    gap: 67px;
+}
