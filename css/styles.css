@@ -53,6 +53,7 @@ header {
   padding-bottom: 162px;
   text-align: center;
   background-color: #252b42;
+  
 }
 
 .hero-text {
@@ -89,7 +90,7 @@ header {
   margin-bottom: 54px;
 }
 
-.hero-btm {
+.hero-btn {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -104,4 +105,5 @@ header {
 .hero-list {
     display: flex;
     gap: 67px;
+   
 }
