@@ -52,7 +52,8 @@ header {
   padding-top: 80px;
   padding-bottom: 162px;
   text-align: center;
-  background-color: #252b42;
+  /* background-color: #252b42; */
+background-image: url(../img/hero.png);
   
 }
 
@@ -90,11 +91,19 @@ header {
   margin-bottom: 54px;
 }
 
+.hero-list {
+display: flex;
+gap: 67px;
+justify-content: center;
+
+
+}
+
 .hero-btn {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.1px;
   background-color: transparent;
   padding: 16px 58px;
@@ -102,8 +111,76 @@ header {
   border: 1px solid #fff;
 }
 
-.hero-list {
-    display: flex;
-    gap: 67px;
-   
+.app {
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 185px;
 }
+
+.app-title {
+color: #000;
+font-family: "Poppins";
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; 
+letter-spacing: 0.1px;
+margin-bottom: 70px;
+}
+
+.app-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 108px;
+  justify-content: space-between;
+}
+
+.app-item:last-child {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 0px;
+  justify-content: space-between  ;
+}
+
+
+.app-box {
+  text-align: start;
+}
+
+.app-image {
+width: 250px;
+height: 506.972px;
+}
+
+.app-caption {
+color: #FA4A0C;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.1px;
+margin-bottom: 27px;
+}
+
+.app-sup-title {
+  color: #252B42;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.2px;
+width: 561px;
+margin-bottom: 27px;
+}
+
+.app-desc {
+  color: #737373;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.2px;
+width: 467px;
+}
+
+
