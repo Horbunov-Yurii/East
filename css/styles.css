@@ -14,16 +14,25 @@ header {
   padding-bottom: 40px;
 }
 
+.header-box {
+  display: flex;
+  align-items: center;
+}
 
-
-
+.header-logo {
+  margin-right: 455px;
+}
 
 .header-img {
   width: 150px;
   height: 66px;
 }
 
+.nav-list {
+  display: flex;
+  gap: 94px;
 
+}
 
 .nav-link {
   padding: 10px;
