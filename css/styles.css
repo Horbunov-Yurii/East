@@ -14,29 +14,20 @@ header {
   padding-bottom: 40px;
 }
 
-.header-box {
-  display: flex;
-  align-items: center;
-}
 
-.header-logo {
-  margin-right: auto;
-}
+
+
 
 .header-img {
   width: 150px;
-  height: 65.214px;
+  height: 66px;
 }
 
-.nav-list {
-  display: flex;
-  gap: 94px;
-}
+
 
 .nav-link {
   padding: 10px;
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 28px;
   letter-spacing: 0.2px;
@@ -52,8 +43,10 @@ header {
   padding-top: 80px;
   padding-bottom: 162px;
   text-align: center;
-  /* background-color: #252b42; */
   background-image: url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-text {
@@ -63,21 +56,16 @@ header {
   font-weight: 700;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.1px;
-  margin-bottom: 10px;
 }
 .hero-title {
   color: #fff;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 58px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 80px; /* 137.931% */
+  line-height: 1.37;
   letter-spacing: 0.2px;
-  width: 799px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
+  
 }
 
 .hero-desk {
@@ -85,16 +73,12 @@ header {
   text-align: center;
   font-size: 24px;
   font-weight: 500;
-  line-height: 1.58; /* 158.333% */
+  line-height: 1.58;
   letter-spacing: 0.2px;
-  margin-bottom: 54px;
+ 
 }
 
-.hero-list {
-  display: flex;
-  gap: 67px;
-  justify-content: center;
-}
+
 
 .hero-btn {
   color: #fff;
@@ -103,9 +87,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.1px;
   background-color: transparent;
-  padding: 16px 58px;
-  border-radius: 30px;
-  border: 1px solid #fff;
+ 
 }
 
 .app {
@@ -118,65 +100,42 @@ header {
   color: #000;
   font-family: "Poppins";
   font-size: 44px;
-  font-style: normal;
   font-weight: 600;
   line-height: 36px;
   letter-spacing: 0.1px;
-  margin-bottom: 70px;
 }
 
-.app-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 108px;
-  justify-content: space-between;
-}
 
-.app-item:last-child {
-  display: flex;
-  flex-direction: row-reverse;
-  margin-bottom: 0px;
-  justify-content: space-between;
-}
 
-.app-box {
-  text-align: start;
-}
 
 .app-image {
   width: 250px;
-  height: 506.972px;
+  height: 507px;
 }
 
 .app-caption {
   color: #fa4a0c;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.1px;
-  margin-bottom: 27px;
 }
 
 .app-sup-title {
   color: #252b42;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
   line-height: 57px;
   letter-spacing: 0.2px;
-  width: 561px;
-  margin-bottom: 27px;
+
 }
 
 .app-desc {
   color: #737373;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 38px;
   letter-spacing: 0.2px;
-  width: 467px;
 }
 
 .orden {
@@ -184,6 +143,8 @@ header {
   padding-bottom: 133px;
   text-align: center;
   background-image: url(../img/order.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .orden-title {
@@ -191,9 +152,8 @@ header {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  line-height: 57px; /* 142.5% */
+  line-height: 1.42;
   letter-spacing: 0.2px;
-  margin-bottom: 20px;
 }
 
 .orden-text {
@@ -201,27 +161,18 @@ header {
   text-align: center;
   font-size: 24px;
   font-weight: 500;
-  line-height: 38px; /* 158.333% */
+  line-height: 1.58;
   letter-spacing: 0.2px;
-  margin-bottom: 51px;
 }
 
-.orden-list {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-}
+
 
 .orden-btm {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
-  line-height: 28px; /* 175% */
+  line-height: 1.75;
   letter-spacing: 0.2px;
-  padding: 16px 45px;
-  border-radius: 10px;
-  border: 1px solid #fff;
-  background-color: transparent;
 }
 
 .footer {
@@ -231,19 +182,14 @@ header {
 
 .footer-img {
   width: 150px;
-  height: 65.214px;
+  height: 66px;
 }
 
 .footer-text {
   color: #5c5c5c;
   font-size: 12px;
   font-weight: 700;
-  line-height: 18px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.1px;
 }
 
-.footer-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
