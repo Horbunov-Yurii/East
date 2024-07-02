@@ -6,7 +6,7 @@ body {
   width: 1214px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 header {
@@ -194,6 +194,7 @@ margin-top: 100px;
   font-weight: 700;
   line-height: 1.42;
   letter-spacing: 0.2px;
+  margin-bottom: 20px;
 }
 
 .orden-text {
@@ -203,9 +204,14 @@ margin-top: 100px;
   font-weight: 500;
   line-height: 1.58;
   letter-spacing: 0.2px;
+  margin-bottom: 60px;
 }
 
-
+.orden-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
 
 .orden-btm {
   color: #fff;
@@ -213,11 +219,30 @@ margin-top: 100px;
   font-weight: 700;
   line-height: 1.75;
   letter-spacing: 0.2px;
+  padding: 18px 31px;
+  border-radius: 10px;
+  background: transparent;
+  border-color: #FFF;
+}
+
+.orden-btm:hover, .orden-btm:focus {
+  background: #FA4A0C;
+  border: none;
+}
+
+.orden-btm:nth-child(2) {
+  padding: 18px 45px;
 }
 
 .footer {
   padding-top: 113px;
   padding-bottom: 60px;
+}
+
+.footer>.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-img {
