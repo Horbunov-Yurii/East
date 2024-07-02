@@ -128,9 +128,22 @@ border: 1px solid #FFF;
   font-weight: 600;
   line-height: 36px;
   letter-spacing: 0.1px;
+  margin-bottom: 70px;
+}
+.app-item {
+  display: flex;
+  align-items: center;
+  gap: 287px;
+}
+.app-rewerse {
+flex-direction: row-reverse;
+margin-top: 100px;
+
 }
 
-
+.app-box {
+  text-align: start;
+}
 
 
 .app-image {
@@ -144,6 +157,7 @@ border: 1px solid #FFF;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.1px;
+  margin-bottom: 17px;
 }
 
 .app-sup-title {
@@ -152,7 +166,7 @@ border: 1px solid #FFF;
   font-weight: 700;
   line-height: 57px;
   letter-spacing: 0.2px;
-
+  margin-bottom: 27px;
 }
 
 .app-desc {
@@ -161,6 +175,7 @@ border: 1px solid #FFF;
   font-weight: 500;
   line-height: 38px;
   letter-spacing: 0.2px;
+  width: 500px;
 }
 
 .orden {
