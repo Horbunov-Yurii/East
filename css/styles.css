@@ -65,6 +65,7 @@ header {
   font-weight: 700;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.1px;
+  margin-bottom: 10px;
 }
 .hero-title {
   color: #fff;
@@ -74,7 +75,10 @@ header {
   font-weight: 700;
   line-height: 1.37;
   letter-spacing: 0.2px;
-  
+  width: 799px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
 }
 
 .hero-desk {
@@ -84,10 +88,14 @@ header {
   font-weight: 500;
   line-height: 1.58;
   letter-spacing: 0.2px;
- 
+ margin-bottom: 54px;
 }
 
-
+.hero-list {
+display: flex;
+justify-content: center;
+gap: 67px;
+}
 
 .hero-btn {
   color: #fff;
@@ -96,7 +104,15 @@ header {
   line-height: 1.5;
   letter-spacing: 0.1px;
   background-color: transparent;
- 
+  width: 236px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 30px;
+border: 1px solid #FFF;
+}
+.hero-btn:hover {
+  background: #FA4A0C;
+  border: none;
 }
 
 .app {
