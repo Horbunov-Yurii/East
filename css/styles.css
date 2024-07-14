@@ -12,7 +12,23 @@ body {
 header {
   padding-top: 50px;
   padding-bottom: 40px;
+  
 }
+
+.header-box{
+  display: flex;
+  align-items: center;
+  gap: 455px;
+}
+
+
+.nav-list{
+  display: flex;
+  gap: 94px;
+
+}
+
+
 
 
 
@@ -56,6 +72,7 @@ header {
   font-weight: 700;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.1px;
+  margin-bottom: 10px;
  
 }
 .hero-title {
@@ -66,9 +83,11 @@ header {
   font-weight: 700;
   line-height: 1.37;
   letter-spacing: 0.2px;
+  width: 799px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
 
- 
- 
 }
 
 .hero-desk {
@@ -78,10 +97,15 @@ header {
   font-weight: 500;
   line-height: 1.58;
   letter-spacing: 0.2px;
+  margin-bottom: 54px;
 
 }
 
-
+.hero-list{
+  display: flex;
+  justify-content: center;
+  gap: 67px;
+}
 
 .hero-btn {
   color: #fff;
@@ -94,6 +118,7 @@ header {
   padding-bottom: 16px;
   border-radius: 30px;
 border: 1px solid #FFF;
+width: 236px;
 }
 .hero-btn:hover {
   background: #FA4A0C;
